@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% load static %}
+{% block app_css %}
+    <link rel="stylesheet" type="text/css" href="{% static "css/styles.css" %}">
+{% endblock app_css %}
+
+<h1>Copyright: {{ date_copyright }}</h1>
